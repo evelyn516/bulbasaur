@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-success navbar-expand-md sticky-top">
+            <a href="#" class="navbar-brand mx-4">BULBASAUR</a>
+            <button type="button" class="navbar-toggler mx-3" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-4" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="index.html">Homepage</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="bulb.html">Bulbasaur</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="ivy.html">Ivysaur</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="venus.html">Venusaur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item nav-link dropdown-toggle flex-end" data-toggle="dropdown" href="#">More Info</a>
+                        <div class="dropdown-menu">
+                            <a href="https://en.wikipedia.org/wiki/Bulbasaur" target="_blank" class="dropdown-item">Wikipedia</a>
+                            <a href="https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)" target="_blank" class="dropdown-item">Pokemon Wiki</a>
+                            <a href="https://www.facebook.com/groups/2123821904341209/about/" target="_blank" class="dropdown-item">Fan Club</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="p-5 text-center bg-image" style="background-image: url('https://images.hdqwalls.com/wallpapers/bulbasaur-pokemon-4k-71.jpg'); height: 300px;">
+            <div class="mask" style="background-color: rgba(0,0,0,0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3 my-2">Bulbasaur</h1>
+                        <h4 class="mb-3">The World's First Pokemon</h4>
+                        <a class="btn btn-outline-light btn-lg my-3" href="https://en.wikipedia.org/wiki/Bulbasaur" target="_blank">Check Out More Info Here!</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 m-3">
+            <div class="col">
+                <article class="card shadow-lg p-5">
+                    <img src="https://archives.bulbagarden.net/media/upload/thumb/2/21/001Bulbasaur.png/375px-001Bulbasaur.png" alt="bulbasaur">
+                    <h3 class="card-header">Bulbasaur</h3>
+                    <p class="card-text my-2">Bulbasaur is the first stage of this Pokemon's evolution. Bulbasaur debuted in Pokemon Red and Blue as a Starter Pokemon. Known as the Seed Pokemon, Bulbasaur can survive for days solely on sunlight.
+                    </p>
+                    <section class="btn-group my-2">
+                        <button type="button" class="btn-success">More Info</button>
+                    </section>
+                </article>
+            </div>
+            <div class="col">
+                <article class="card shadow-lg p-5">
+                    <img src="https://pokestop.io/img/pokemon/ivysaur-256x256.png" alt="ivysaur">
+                    <h3 class="card-header">Ivysaur</h3>
+                    <p class="card-text my-2">Bulbasaur evolves into Ivysaur at level 16. Ivysaur is a dual type Grass/Poison type Pokemon. Its blossom on its back grows larger in the sunlight. As the blossom grows, Ivysaur loses the ability to stand on its hind legs.
+                    </p>
+                    <section class="btn-group my-2">
+                        <button type="button" class="btn-success">More Info</button>
+                    </section>
+                </article>
+            </div>
+            <div class="col">
+                <article class="card shadow-lg p-5">
+                    <img src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc2MjYwODQ5NTk2NTcyODYy/pokemon-venusaur-nicknames.png" alt="venusaur">
+                    <h3 class="card-header">Venusaur</h3>
+                    <p class="card-text my-2">Venusaur is a combination of the words Venus and the Greek saur (lizard). It can Mega Involve into Mega Venasaur using the Venusaurite. This Pokemon is rarely found in the wild, but has been known to inhabit grasslands. 
+                    </p>
+                    <section class="btn-group my-2">
+                        <button type="button" class="btn-success">More Info</button>
+                    </section>
+                </article>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
